@@ -1,3 +1,7 @@
+/* * {
+    
+} */
+
 body {
     background-color: #5F7CBE;
     margin: 0em 5em;
@@ -44,7 +48,18 @@ h1 {
     display: flex;
     width: 100%;
     background-color: #FAEBD7;
-    padding: -.2em 0em 0em 0em;
+    /* padding: -.2em 0em 0em 0em; */
+}
+
+.flex-item {
+    background-color: hotpink;
+    flex: 1;
+    margin: 1em;
+}
+
+.section-item {
+    margin: 0 auto;
+    width: 100%
 }
 
 main {
